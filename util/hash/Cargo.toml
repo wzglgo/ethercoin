@@ -1,0 +1,19 @@
+[package]
+description = "Rust bindings for tinykeccak C library"
+homepage = "https://github.com/paritytech/keccak-hash"
+readme = "README.md"
+license = "GPL-3.0"
+name = "keccak-progpow"
+version = "0.1.2"
+authors = ["Parity Technologies <admin@parity.io>"]
+build = "build.rs"
+
+[dependencies]
+ethereum-types = "0.4"
+tiny-keccak = "1.4.1"
+
+[build-dependencies]
+gcc = "0.3"
+
+[dev-dependencies]
+tempdir = "0.3"
