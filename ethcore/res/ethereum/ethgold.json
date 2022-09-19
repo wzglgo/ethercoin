@@ -1,6 +1,6 @@
 {
-	"name": "aaaaaaa",
-	"dataDir": "ete",
+	"name": "ETHERCOIN",
+	"dataDir": "ether",
 	"engine": {
 		"Ethash": {
 			"params": {
