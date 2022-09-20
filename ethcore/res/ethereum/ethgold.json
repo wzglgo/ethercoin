@@ -169,7 +169,6 @@
 		"eip160Transition": "0x28d138",
 		"eip161abcTransition": "0x28d138",
 		"eip161dTransition": "0x28d138",
-		"eip155Transition": "0x28d138",
 		"etgHardforkTransition": 4730666,
 		"maxCodeSize": "0x6000",
 		"maxCodeSizeTransition": "0x28d138",
