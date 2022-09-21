@@ -309,7 +309,7 @@ impl Engine for Ethash {
 				rewards.into_iter().map(|(author, amount)| (author, RewardKind::External, amount)).collect()
 			},
 			_ => {
-				info!(target: "ete", "no block_reward_contract {}", number);
+				info!(target: "ete", "111111no block_reward_contract {}", number);
 				let mut rewards = Vec::new();
 
 				// Applies ETG block reward.
