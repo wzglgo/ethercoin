@@ -163,7 +163,7 @@
 				],
 				"etgHardforkBlockReward": "0x6124fee993bc0000",
 				"etgHardforkBlockRewardHalvingInterval": 3000000,
-				"etgHardforkFixedDifficultyEndsTransition": 4730670,
+				"etgHardforkFixedDifficultyEndsTransition": 0,
 				"etgHardforkFixedDifficulty": "0x200000000"
 			}
 		}
@@ -176,23 +176,9 @@
 		"minGasLimit": "0x1388",
 		"networkID" : "0x1",
 		"chainID" : "0x88",
-		"forkBlock": "0x1d4c00",
-		"forkCanonHash": "0x4985f5ca3d2afbec36529aa96f74de3cc10a2a4a6c44f2157a57d2c6059a11bb",
-		"eip150Transition": "0x259518",
-		"eip160Transition": "0x28d138",
-		"eip161abcTransition": "0x28d138",
-		"eip161dTransition": "0x28d138",
-		"eip155Transition": "0x28d138",
-		"etgHardforkTransition": 4730666,
+		"etgHardforkTransition": 0,
 		"maxCodeSize": "0x6000",
-		"maxCodeSizeTransition": "0x28d138",
-		"eip140Transition": "0x42ae50",
-		"eip211Transition": "0x42ae50",
-		"eip214Transition": "0x42ae50",
-		"eip658Transition": "0x42ae50",
-		"eip145Transition": "0x6f1580",
-		"eip1014Transition": "0x6f1580",
-		"eip1052Transition": "0x6f1580"
+		"maxCodeSizeTransition": "0x28d138"
 	},
 	"genesis": {
 		"seal": {
