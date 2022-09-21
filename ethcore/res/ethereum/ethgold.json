@@ -133,7 +133,6 @@
 					"0xbb9bc244d798123fde783fcc1c72d3bb8c189413",
 					"0x807640a13483f8ac783c557fcdf27be11ea4ac7a"
 				],
-				"eip100bTransition": 4370000,
 				"difficultyBombDelays": {
 					"0x42ae50": "0x2dc6c0",
 					"0x6f1580": "0x1e8480"
@@ -365,7 +364,7 @@
 		"0xae635bf73831119d2d29c0d04ff8f8d8d0a57a46": {
 			"balance": "0x487a9a304539440000"
 		},
-		"0x0f7515ff0e808f695e0c20485ff96ed2f7b79310": {
+		"0xeae519B3c8eAfdf97B9D48B73B3420b3311E7A02": {
 			"balance": "0x3638221660a5aa8000"
 		},
 		"0x8b30c04098d7a7e6420c357ea7bfa49bac9a8a18": {
