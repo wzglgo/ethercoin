@@ -45,7 +45,7 @@ impl Default for DeprecationNotice {
 	fn default() -> Self {
 		Self::new(Instant::now, |method, more| {
 			let more = more.map(|x| format!(": {}", x)).unwrap_or_else(|| ".".into());
-			warn!(target: "rpc", "{} is deprecated and will be removed in future versions{}", method, more);
+			warn!(target: "rpc", "{} 1111111is deprecated and will be removed in future versions{}", method, more);
 		})
 	}
 }

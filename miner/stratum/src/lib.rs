@@ -171,6 +171,7 @@ impl StratumImpl {
 
 	/// rpc method `mining.submit`
 	fn submit(&self, params: Params, meta: SocketMetadata) -> RpcResult {
+		warn!(target: "rpc", "22222222");
 		Ok(match params {
 			Params::Array(vals) => {
 				// first two elements are service messages (worker_id & job_id)
@@ -181,20 +182,20 @@ impl StratumImpl {
 					})
 					.collect::<Vec<String>>()) {
 					Ok(()) => {
-						self.update_peers(&meta.tcp_dispatcher.expect("tcp_dispatcher is always initialized; qed"));
+						self.update_peers(&meta.tcp_dispatcher.expect("33333tcp_dispatcher is always initialized; qed"));
 						to_value(true)
 					},
 					Err(submit_err) => {
-						warn!("Error while submitting share: {:?}", submit_err);
+						warn!("44444Error while submitting share: {:?}", submit_err);
 						to_value(false)
 					}
 				}
 			},
 			_ => {
-				trace!(target: "stratum", "Invalid submit work format {:?}", params);
+				trace!(target: "55555stratum", "Invalid submit work format {:?}", params);
 				to_value(false)
 			}
-		}.expect("Only true/false is returned and it's always serializable; qed"))
+		}.expect("66666Only true/false is returned and it's always serializable; qed"))
 	}
 
 	/// Helper method
