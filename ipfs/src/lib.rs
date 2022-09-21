@@ -58,7 +58,7 @@ impl IpfsHandler {
 	pub fn on_request(&self, req: hyper::Request<Body>) -> (Option<HeaderValue>, Out) {
 		match *req.method() {
 			Method::GET | Method::POST => {},
-			_ => return (None, Out::Bad("Invalid Request")),
+			_ => return (None, Out::Bad("Invalid Request 111111")),
 		}
 
 		if !http::is_host_allowed(&req, &self.allowed_hosts) {
