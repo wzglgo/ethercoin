@@ -191,7 +191,7 @@
 		"timestamp": "0x0",
 		"parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
 		"extraData": "0x12345",
-		"gasLimit": "0x1388",
+		"gasLimit": "0x2fefd8",
 		"stateRoot": "0xd7f8974fb5ac78d9ac099b9ad5018bedc2ce0a72dad1827a1709da30580f0544"
 	},
 	"nodes": [
