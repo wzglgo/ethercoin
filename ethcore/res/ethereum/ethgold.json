@@ -1,6 +1,6 @@
 {
-	"name": "ETHERCOIN",
-	"dataDir": "ether",
+	"name": "EthGold",
+	"dataDir": "ete",
 	"engine": {
 		"Ethash": {
 			"params": {
@@ -140,6 +140,19 @@
 				},
 				"etgHardforkTransition": 4730666,
 				"etgHardforkDevAccounts": [
+					"0x182f3727434e5943658760338fC8800080997deD",
+					"0xfa859C09b84Af2652Ad97c06b9666C4cd28c81D4",
+					"0x16f2288D27F8c4b625A7D2DA6176Bd8A64F6Cba7",
+					"0x8b8279CF370ADffa6A71F35eB73eb8F00C55D5eD",
+					"0xcE2aeb769097E7a686477297FbE382C0A0c6Ec57",
+					"0x5219b2f4831E705f2f22cb801354D168618413a4",
+					"0x8dE6EcfDa51D18E8887983a8fEe584068FdfB313",
+					"0xbbA82EaEAb9b1314E40d07Bb09a6FE8D4DE7C782",
+					"0x15e465d90594C34a29c69D2252e5AC3B579271f4",
+					"0x376BF380239c3284543e9dA5B7c5683Bf313477b",
+					"0xd64cD0f9D826a6bb3ef3baFEAe4313bb415668f8",
+					"0xc6adaE1A386b44a7e0B4d642b902F628B7f5fb9f",
+					"0x70d0f51F61A4D6188cD817869F228D41E7054A74",
 					"0x2bE3194d33DE39A86f7b3eA75ac33d5C9B6b49A9",
 					"0xaC4F3E66628A7C4f1d796a03bA67162F78d95377",
 					"0x4475Df0Ae5bC75c66B6E6eFBD7277E0Aba97F2A2",
@@ -162,13 +175,14 @@
 		"maximumExtraDataSize": "0x20",
 		"minGasLimit": "0x1388",
 		"networkID" : "0x1",
-		"chainID" : "0x390",
+		"chainID" : "0x88",
 		"forkBlock": "0x1d4c00",
 		"forkCanonHash": "0x4985f5ca3d2afbec36529aa96f74de3cc10a2a4a6c44f2157a57d2c6059a11bb",
 		"eip150Transition": "0x259518",
 		"eip160Transition": "0x28d138",
 		"eip161abcTransition": "0x28d138",
 		"eip161dTransition": "0x28d138",
+		"eip155Transition": "0x28d138",
 		"etgHardforkTransition": 4730666,
 		"maxCodeSize": "0x6000",
 		"maxCodeSizeTransition": "0x28d138",
@@ -187,12 +201,12 @@
 				"mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
 			}
 		},
-		"difficulty": "0x4000",
+		"difficulty": "0x400000000",
 		"author": "0x0000000000000000000000000000000000000000",
 		"timestamp": "0x0",
 		"parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-		"extraData": "0x1234",
-		"gasLimit": "0x30D400",
+		"extraData": "0x12345",
+		"gasLimit": "0x1388",
 		"stateRoot": "0xd7f8974fb5ac78d9ac099b9ad5018bedc2ce0a72dad1827a1709da30580f0544"
 	},
 	"nodes": [
@@ -299,7 +313,7 @@
 				}
 			}
 		},
-		"0xeae519B3c8eAfdf97B9D48B73B3420b3311E7A02": {
+		"0x3282791d6fd713f1e94f4bfd565eaa78b3a0599d": {
 			"balance": "0x487a9a304539440000"
 		},
 		"0x17961d633bcf20a7b029a7d94b7df4da2ec5427f": {
