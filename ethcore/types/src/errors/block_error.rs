@@ -78,7 +78,7 @@ pub enum BlockError {
 	InvalidDifficulty(Mismatch<U256>),
 	/// Seal element of type H256 (max_hash for Ethash, but could be something else for
 	/// other seal engines) is out of bounds.
-	#[display(fmt = "Seal element out of bounds: {}", _0)]
+	#[display(fmt = "Seal element out of bounds:**-- {}", _0)]
 	MismatchedH256SealElement(Mismatch<H256>),
 	/// Proof-of-work aspect of seal, which we assume is a 256-bit value, is invalid.
 	#[display(fmt = "Block has invalid PoW: {}", _0)]
