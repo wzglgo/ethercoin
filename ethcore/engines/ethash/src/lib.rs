@@ -234,8 +234,8 @@ fn verify_block_unordered(pow: &Arc<EthashManager>, header: &Header) -> Result<(
 	       mix = H256(result.mix_hash),
 	       res = H256(result.value));
 	if mix != seal.mix_hash {
-		trace!(target: "rpc", "aaaa{}",mix);
-		trace!(target: "rpc", "bbbb{}",seal.mix_hash);
+		println!(target: "rpc", "aaaa{}",mix);
+		println!(target: "rpc", "bbbb{}",seal.mix_hash);
 		return Err(From::from(BlockError::MismatchedH256SealElement(Mismatch { expected: mix, found: seal.mix_hash })));
 	}
 	if &difficulty < header.difficulty() {
