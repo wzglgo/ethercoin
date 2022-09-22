@@ -171,7 +171,7 @@ impl StratumImpl {
 
 	/// rpc method `mining.submit`
 	fn submit(&self, params: Params, meta: SocketMetadata) -> RpcResult {
-		warn!(target: "rpc", "22222222");
+		warn!(target: "rpc", "22222222……");
 		Ok(match params {
 			Params::Array(vals) => {
 				// first two elements are service messages (worker_id & job_id)

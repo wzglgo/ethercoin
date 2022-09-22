@@ -4,7 +4,7 @@
 	"engine": {
 		"Ethash": {
 			"params": {
-				"minimumDifficulty": "0x20000",
+				"minimumDifficulty": "0x1",
 				"difficultyBoundDivisor": "0x800",
 				"durationLimit": "0xd",
 				"blockReward": {
@@ -163,7 +163,7 @@
 				"etgHardforkBlockReward": "0x6124fee993bc0000",
 				"etgHardforkBlockRewardHalvingInterval": 3000000,
 				"etgHardforkFixedDifficultyEndsTransition": 4730670,
-				"etgHardforkFixedDifficulty": "0x200000000"
+				"etgHardforkFixedDifficulty": "0x2"
 			}
 		}
 	},
@@ -186,7 +186,7 @@
 				"mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
 			}
 		},
-		"difficulty": "0x20000",
+		"difficulty": "0x1",
 		"author": "0x0000000000000000000000000000000000000000",
 		"timestamp": "0x0",
 		"parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
