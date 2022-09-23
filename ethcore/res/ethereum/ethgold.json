@@ -27,7 +27,7 @@
 				"etgHardforkBlockReward": "0x6124fee993bc0000",
 				"etgHardforkBlockRewardHalvingInterval": 3000000,
 				"etgHardforkFixedDifficultyEndsTransition": 4730670,
-				"etgHardforkFixedDifficulty": "0x2"
+				"etgHardforkFixedDifficulty": "0x1"
 			}
 		}
 	},
